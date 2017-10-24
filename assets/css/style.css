@@ -1,0 +1,20 @@
+.jumbotron {
+    background: url("../images/comic.jpg");
+    background-position: center;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    position: relative;
+
+}
+
+body {
+    background-color: black;
+
+}
+#submitUserData{
+    background-color: red;
+}

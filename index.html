@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/javascript.js"></script>
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Gif-Tastic!</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="jumbotron">
+            <header>
+                <h1>
+                    <font color="white">Super-Search</font>
+                </h1>
+                <h3>
+                    <font color="white">Click a button below to begin your search, or create your own!</font>
+                </h3>
+            </header>
+        </div>
+        <!--end jumbotron-->
+        <!--JS Generated buttons go here-->
+        <div class="row buttonContainer">
+            <div class="col-sm-12 col-md-10 " id="buttonsDiv">
+            </div>
+        </div>
+        <!--capture user input for giphy AJAX-->
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-md-offset-2 searchBox text-center">
+                <form id="userInputForm">
+                    <label for="userInput"><font color="white">Make-A-Button!</font></label>
+                    <input type="text" id="userInput">
+                    <input id="submitUserData" type="submit" value="Assemble!">
+                </form>
+            </div>
+        </div>
+        <!--display AJAX results here-->
+        <div class="row">
+            <div class="GIFdiv text-center">
+            </div>
+        </div>
+    </div>
+    <!--end wrapper-->
+</body>
+
+</html>
